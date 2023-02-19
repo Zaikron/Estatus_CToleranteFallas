@@ -10,6 +10,14 @@
 #### Este programa recibe como parámetros nombres de programas para detectar su estado de ejecución. Se hacen las pruebas con el programa que realizamos en la actividad anterior, en mi caso el mío se llama Checkpoint.exe, por lo tanto pasare ese parámetro al script de Python. Para ver el estatus se muestra un texto que indica tal situación, el color rojo indica que el proceso no existe y en verde que el proceso se está ejecutando.
 <p align="center"> <img src="https://github.com/Zaikron/Estatus_CToleranteFallas/blob/main/Estatus_Im/c1.gif"/> </p>
 
+#### Creación del servicio
+<p align="center"> <img src="https://github.com/Zaikron/Estatus_CToleranteFallas/blob/main/Estatus_Im/c2.PNG"/> </p>
+
+#### Ejecución del servicio
+<p align="center"> <img src="https://github.com/Zaikron/Estatus_CToleranteFallas/blob/main/Estatus_Im/c3.PNG"/> </p>
+<p align="center"> <img src="https://github.com/Zaikron/Estatus_CToleranteFallas/blob/main/Estatus_Im/c4.PNG"/> </p>
+
+
 ```python
   import sys
   import psutil
